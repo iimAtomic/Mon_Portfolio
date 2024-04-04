@@ -6,7 +6,10 @@ import calculatrice from "../../Assets/Projects/calculatrice.png";
 import autistic from "../../Assets/Projects/autistic.png";
 import QR_code from "../../Assets/Projects/QR.png";
 import todoList from "../../Assets/Projects/Todolist.png";
-import ecom from "../../Assets/Projects/ecom.png";
+import arosage from "../../Assets/Projects/arosage.png";
+import anumerique from "../../Assets/Projects/anumerique.png";
+import diamant from "../../Assets/Projects/diamant.png";
+import meteo from "../../Assets/Projects/meteo.png";
 
 function Projects() {
   return (
