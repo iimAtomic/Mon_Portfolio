@@ -20,16 +20,6 @@ function Projects() {
         Vous trouverez ici les recents projets sur lesquelles j'ai travaillé
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={autistic}
-              isBlog={false}
-              title="AutisticPrime"
-              description="Il s'agit d'un site conçu dans le but de numériser et de centraliser les données nécessaires à l'apprentissage des métiers du numérique par les personnes autistes. Ils peuvent discuter entre eux grâce à un forum mis en place à cet effet avec websocket."
-              ghLink="https://github.com/iimAtomic/AutisticPrime_V1"
-              demoLink="https://github.com/iimAtomic/AutisticPrime_V1"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -44,16 +34,62 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calculatrice}
+              imgPath={anumerique}
               isBlog={false}
-              title="Calculatrice"
-              description="Petite calculatrice avec une interface travailler avec css . Son fonctionnement suis une logique etablit avec js"
-              ghLink="https://github.com/iimAtomic/Projet_Calculatrice_JS8HTML_CSS"
-              demoLink="projet-calculatrice-js-8-html-css.vercel.app"              
+              title="Association Website"
+              description="Il  sagit du site web que j'ai réalisé pour l'association A-numérique. Il a été fait avec Next.js"
+              ghLink="https://a-numerique.vercel.app/"
+              demoLink="https://a-numerique.vercel.app/"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={diamant}
+              isBlog={false}
+              title="Boutique ecommerce de ventes de ressources pour le jeu Garena free fire "
+              description="Il permet aux acheteur de voir les tarifs du vendeurs  qui est youtubeur et de le contacter pour leurs achats"
+              ghLink="https://diamant-website.vercel.app/"
+              demoLink="https://diamant-website.vercel.app/"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={meteo}
+              isBlog={false}
+              title="Site météo"
+              description="Site qui présente la mété parisiene via des icones qui donne la temperature et le temps , il a été fait avec nextjs et l'api openweather"
+              demoLink="meteoapp-beta.vercel.app"
+            />
+          </Col>
+
+          
+
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={arosage}
+              isBlog={false}
+              title="Réseau social pour gardiennage de plantes"
+              description="Il s'agit s'agit d'un reseau social fait avec flutter en front et java springboot en back end. Le fichier apk sera bientot disponible"
+              ghLink="https://github.com/iimAtomic/arosage_v1_flutter"
+              demoLink="https://github.com/iimAtomic/arosage_v1_flutter"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calculatrice}
+              isBlog={false}
+              title="Calculatrice"
+              description="Une calculatrice pratique en html css et js !"
+              ghLink="https://github.com/iimAtomic/Projet_Calculatrice_JS8HTML_CSS"
+              demoLink="projet-calculatrice-js-8-html-css.vercel.app"
+            />
+          </Col>
+
+    
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todoList}
@@ -62,6 +98,20 @@ function Projects() {
               description="Une todo list destinée  erégistré des activités ou des programmes . L'utilisateur peut ajouter,supprimer,grouper ou modifier des taches à volonté"
               ghLink="https://github.com/iimAtomic/Todo_List"
               demoLink="https://todo-list-five-rho-43.vercel.app"
+            />
+          </Col>
+
+          
+
+                           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={autistic}
+              isBlog={false}
+              title="AutisticPrime"
+              description="Il s'agit d'un site conçu dans le but de numériser et de centraliser les données nécessaires à l'apprentissage des métiers du numérique par les personnes autistes. Ils peuvent discuter entre eux grâce à un forum mis en place à cet effet avec websocket."
+              ghLink="https://github.com/iimAtomic/AutisticPrime_V1"
+              demoLink="https://github.com/iimAtomic/AutisticPrime_V1"
             />
           </Col>
         </Row>
