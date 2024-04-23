@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Association Website"
               description="Il  sagit du site web que j'ai réalisé pour l'association A-numérique. Il a été fait avec Next.js"
-              ghLink="https://a-numerique.vercel.app/"
+              ghLink="https://github.com/iimAtomic/A-numerique"
               demoLink="https://a-numerique.vercel.app/"
             />
           </Col>
@@ -63,6 +63,7 @@ function Projects() {
               isBlog={false}
               title="Site météo"
               description="Site qui présente la mété parisiene via des icones qui donne la temperature et le temps , il a été fait avec nextjs et l'api openweather"
+              ghLink="https://github.com/iimAtomic/meteoapp"
               demoLink="meteoapp-beta.vercel.app"
             />
           </Col>
