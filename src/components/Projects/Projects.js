@@ -10,6 +10,7 @@ import arosage from "../../Assets/Projects/arosage1.png";
 import anumerique from "../../Assets/Projects/anumerique1.png";
 import diamant from "../../Assets/Projects/diamant1.png";
 import meteo from "../../Assets/Projects/meteo1.png";
+import alwilshoes from "../../Assets/Projects/alwilshoes.png"
 
 function Projects() {
   return (
@@ -44,7 +45,6 @@ function Projects() {
               ghLink="https://github.com/iimAtomic/A-numerique"
               demoLink="https://a-numerique.vercel.app/"
             />
-                
           </Col>
 
           <Col md={4} className="project-card">
@@ -53,10 +53,9 @@ function Projects() {
               isBlog={false}
               title="Allwil shoes Ecommerce Website"
               description="Il  sagit du site ecom que j'ai réalisé pour l'entreprise Allwil Shoes  Il a été fait avec Php et wordpress"
-              ghLink="https://allwilshoes.com/boutique-allwil/"
-              demoLink="https://allwilshoes.com/boutique-allwil/"
-            />
-                
+              ghLink="https://https://allwilshoes.com/"
+              demoLink="https://https://allwilshoes.com/"
+            /> 
           </Col>
 
 
