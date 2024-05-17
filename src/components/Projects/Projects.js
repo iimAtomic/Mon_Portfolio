@@ -44,7 +44,21 @@ function Projects() {
               ghLink="https://github.com/iimAtomic/A-numerique"
               demoLink="https://a-numerique.vercel.app/"
             />
+                
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={alwilshoes}
+              isBlog={false}
+              title="Allwil shoes Ecommerce Website"
+              description="Il  sagit du site ecom que j'ai réalisé pour l'entreprise Allwil Shoes  Il a été fait avec Php et wordpress"
+              ghLink="https://allwilshoes.com/boutique-allwil/"
+              demoLink="https://allwilshoes.com/boutique-allwil/"
+            />
+                
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -64,7 +78,7 @@ function Projects() {
               title="Site météo"
               description="Site qui présente la mété parisiene via des icones qui donne la temperature et le temps , il a été fait avec nextjs et l'api openweather"
               ghLink="https://github.com/iimAtomic/meteoapp"
-              demoLink="meteoapp-beta.vercel.app"
+              demoLink="https://meteoapp-beta.vercel.app"
             />
           </Col>
 
@@ -89,7 +103,7 @@ function Projects() {
               title="Calculatrice"
               description="Une calculatrice pratique en html css et js !"
               ghLink="https://github.com/iimAtomic/Projet_Calculatrice_JS8HTML_CSS"
-              demoLink="projet-calculatrice-js-8-html-css.vercel.app"
+              demoLink="https://projet-calculatrice-js-8-html-css.vercel.app"
             />
           </Col>
 
